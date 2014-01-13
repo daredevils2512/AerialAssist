@@ -4,15 +4,6 @@
 DriveTrain::DriveTrain() : Subsystem("DriveTrain") {
 	
 }
-    
-void DriveTrain::Initialize() {
-	// Set the default command for a subsystem here.
-	//SetDefaultCommand(new MySpecialCommand());
-}
-
-DriveTrain::DriveTrain() {
-	
-}
 
 void DriveTrain::InitDefault() {
 	
