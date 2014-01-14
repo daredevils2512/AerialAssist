@@ -25,6 +25,12 @@ public:
 		static Talon* leftMotor;
 		static RobotDrive* myRobot;
 		static void init();
+		
+		//Shooter Objects
+		static Talon* reloadMotor;
+		static Talon* scoopWheelMotor;
+		static DigitalInput* shooterPhotoEye;
+		static AnalogChannel* shooterAnglePot;
 };
 
 #endif
