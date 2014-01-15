@@ -27,10 +27,11 @@ public:
 		static void init();
 		
 		//Shooter Objects
-		static Talon* reloadMotor;
+		/*static Talon* reloadMotor;
 		static Talon* scoopWheelMotor;
+		static Talon* angleMotor;
 		static DigitalInput* shooterPhotoEye;
-		static AnalogChannel* shooterAnglePot;
+		static AnalogChannel* shooterAnglePot;*/
 };
 
 #endif

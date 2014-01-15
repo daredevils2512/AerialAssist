@@ -11,13 +11,20 @@ class Shooter: public Subsystem {
 private:
 	// It's desirable that everything possible under private except
 	// for methods that implement subsystem capabilities
+	Talon* reloadMotor;
+	Talon* scoopWheelMotor;
+	Talon* angleMotor;
+	DigitalInput* shooterPhotoEye;
+	AnalogChannel* shooterAnglePot;
+	Solenoid* ScoopPnuematic;
+	
 public:
 	Shooter();
 	void InitDefaultCommand();
 	void MoveAngleMotor(float velocity);
 	double GetAngle();
 	void SpinScoopWheel(float velocity);
-	void RetractShootingMechinism(bool go);
+	void RetractShootingMechinism();
 	bool GetPhotoEye();
 	void ActivateScoopPnuematic(bool open);
 };
