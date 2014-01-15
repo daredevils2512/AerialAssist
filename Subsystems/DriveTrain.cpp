@@ -10,7 +10,7 @@ void DriveTrain::InitDefault() {
 }
 
 void DriveTrain::Drive() {
-	
+
 }
 
 void DriveTrain::ShiftUp() {

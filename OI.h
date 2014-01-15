@@ -4,10 +4,15 @@
 #include "WPILib.h"
 
 class OI {
-private:
-
-public:
-	OI();
+		
+	public:
+		OI();
+	
+		float GetJoyDrvX();
+		float GetJoyDrvY();
+	private:
+			Joystick *joyDrv;		
+			float ConvertAxis(float input);
 };
 
 #endif

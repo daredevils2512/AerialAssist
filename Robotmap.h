@@ -21,12 +21,14 @@
 
 class RobotMap {
 public:
+				
+		// Drive Objects
 		static Talon* rightMotor;
 		static Talon* leftMotor;
 		static RobotDrive* myRobot;
 		static void init();
 		
-		//Shooter Objects
+		// Shooter Objects
 		static Talon* reloadMotor;
 		static Talon* scoopWheelMotor;
 		static DigitalInput* shooterPhotoEye;

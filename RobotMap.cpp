@@ -8,6 +8,7 @@ RobotDrive* RobotMap::myRobot = NULL;
 void RobotMap::init() {
 	rightMotor = new Talon(1, 1);
 	leftMotor = new Talon(1, 1);
+	
 	myRobot = new RobotDrive(leftMotor, rightMotor);
 	
 }
