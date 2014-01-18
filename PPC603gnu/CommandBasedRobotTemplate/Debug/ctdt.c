@@ -7,11 +7,27 @@
 /*       -fdollars-in-identifiers flag.                   */
 
 
+void _GLOBAL__I__ZN9AngleDownC2Ev();
+
+void _GLOBAL__I__ZN7AngleUpC2Ev();
+
 void _GLOBAL__I__ZN8AutoMoveC2Efi();
 
 void _GLOBAL__I__ZN17AutonomousCommandC2Ev();
 
+void _GLOBAL__I__ZN9ClawCloseC2Ev();
+
+void _GLOBAL__I__ZN8ClawOpenC2Ev();
+
 void _GLOBAL__I__ZN5DriveC2Ev();
+
+void _GLOBAL__I__ZN4FireC2Ev();
+
+void _GLOBAL__I__ZN9GoToAngleC2Ev();
+
+void _GLOBAL__I__ZN4LockC2Ev();
+
+void _GLOBAL__I__ZN8PullBackC2Ev();
 
 void _GLOBAL__I__ZN9ShiftDownC2Ev();
 
@@ -21,6 +37,8 @@ void _GLOBAL__I__ZN10StopMotorsC2Ev();
 
 void _GLOBAL__I__ZN6TurnToC2Ef();
 
+void _GLOBAL__I__ZN6UnlockC2Ev();
+
 void _GLOBAL__I__ZN2OIC2Ev();
 
 void _GLOBAL__I__ZN5Robot10driveTrainE();
@@ -28,6 +46,10 @@ void _GLOBAL__I__ZN5Robot10driveTrainE();
 void _GLOBAL__I__ZN8RobotMap24driveTrainLeftDriveMotorE();
 
 void _GLOBAL__I__ZN10DriveTrainC2Ev();
+
+void _GLOBAL__I__ZN7ShooterC2Ev();
+
+void _GLOBAL__I__ZN8Trunnion3MAXE();
 
 void _GLOBAL__I__ZN12PrintCommandC2EPKc();
 
@@ -84,17 +106,28 @@ void _GLOBAL__I__ZN11StringArray19STRING_ARRAY_RAW_IDE();
 extern void (*_ctors[])();
 void (*_ctors[])() =
     {
+    _GLOBAL__I__ZN9AngleDownC2Ev,
+    _GLOBAL__I__ZN7AngleUpC2Ev,
     _GLOBAL__I__ZN8AutoMoveC2Efi,
     _GLOBAL__I__ZN17AutonomousCommandC2Ev,
+    _GLOBAL__I__ZN9ClawCloseC2Ev,
+    _GLOBAL__I__ZN8ClawOpenC2Ev,
     _GLOBAL__I__ZN5DriveC2Ev,
+    _GLOBAL__I__ZN4FireC2Ev,
+    _GLOBAL__I__ZN9GoToAngleC2Ev,
+    _GLOBAL__I__ZN4LockC2Ev,
+    _GLOBAL__I__ZN8PullBackC2Ev,
     _GLOBAL__I__ZN9ShiftDownC2Ev,
     _GLOBAL__I__ZN7ShiftUpC2Ev,
     _GLOBAL__I__ZN10StopMotorsC2Ev,
     _GLOBAL__I__ZN6TurnToC2Ef,
+    _GLOBAL__I__ZN6UnlockC2Ev,
     _GLOBAL__I__ZN2OIC2Ev,
     _GLOBAL__I__ZN5Robot10driveTrainE,
     _GLOBAL__I__ZN8RobotMap24driveTrainLeftDriveMotorE,
     _GLOBAL__I__ZN10DriveTrainC2Ev,
+    _GLOBAL__I__ZN7ShooterC2Ev,
+    _GLOBAL__I__ZN8Trunnion3MAXE,
     _GLOBAL__I__ZN12PrintCommandC2EPKc,
     _GLOBAL__I__ZN9Scheduler9_instanceE,
     _GLOBAL__I__ZN11WaitCommandC2Ed,
@@ -124,11 +157,27 @@ void (*_ctors[])() =
     0
     };
 
+void _GLOBAL__D__ZN9AngleDownC2Ev();
+
+void _GLOBAL__D__ZN7AngleUpC2Ev();
+
 void _GLOBAL__D__ZN8AutoMoveC2Efi();
 
 void _GLOBAL__D__ZN17AutonomousCommandC2Ev();
 
+void _GLOBAL__D__ZN9ClawCloseC2Ev();
+
+void _GLOBAL__D__ZN8ClawOpenC2Ev();
+
 void _GLOBAL__D__ZN5DriveC2Ev();
+
+void _GLOBAL__D__ZN4FireC2Ev();
+
+void _GLOBAL__D__ZN9GoToAngleC2Ev();
+
+void _GLOBAL__D__ZN4LockC2Ev();
+
+void _GLOBAL__D__ZN8PullBackC2Ev();
 
 void _GLOBAL__D__ZN9ShiftDownC2Ev();
 
@@ -138,6 +187,8 @@ void _GLOBAL__D__ZN10StopMotorsC2Ev();
 
 void _GLOBAL__D__ZN6TurnToC2Ef();
 
+void _GLOBAL__D__ZN6UnlockC2Ev();
+
 void _GLOBAL__D__ZN2OIC2Ev();
 
 void _GLOBAL__D__ZN5Robot10driveTrainE();
@@ -145,6 +196,10 @@ void _GLOBAL__D__ZN5Robot10driveTrainE();
 void _GLOBAL__D__ZN8RobotMap24driveTrainLeftDriveMotorE();
 
 void _GLOBAL__D__ZN10DriveTrainC2Ev();
+
+void _GLOBAL__D__ZN7ShooterC2Ev();
+
+void _GLOBAL__D__ZN8Trunnion3MAXE();
 
 void _GLOBAL__D__ZN9Scheduler9_instanceE();
 
@@ -191,17 +246,28 @@ void _GLOBAL__D__ZN11StringArray19STRING_ARRAY_RAW_IDE();
 extern void (*_dtors[])();
 void (*_dtors[])() =
     {
+    _GLOBAL__D__ZN9AngleDownC2Ev,
+    _GLOBAL__D__ZN7AngleUpC2Ev,
     _GLOBAL__D__ZN8AutoMoveC2Efi,
     _GLOBAL__D__ZN17AutonomousCommandC2Ev,
+    _GLOBAL__D__ZN9ClawCloseC2Ev,
+    _GLOBAL__D__ZN8ClawOpenC2Ev,
     _GLOBAL__D__ZN5DriveC2Ev,
+    _GLOBAL__D__ZN4FireC2Ev,
+    _GLOBAL__D__ZN9GoToAngleC2Ev,
+    _GLOBAL__D__ZN4LockC2Ev,
+    _GLOBAL__D__ZN8PullBackC2Ev,
     _GLOBAL__D__ZN9ShiftDownC2Ev,
     _GLOBAL__D__ZN7ShiftUpC2Ev,
     _GLOBAL__D__ZN10StopMotorsC2Ev,
     _GLOBAL__D__ZN6TurnToC2Ef,
+    _GLOBAL__D__ZN6UnlockC2Ev,
     _GLOBAL__D__ZN2OIC2Ev,
     _GLOBAL__D__ZN5Robot10driveTrainE,
     _GLOBAL__D__ZN8RobotMap24driveTrainLeftDriveMotorE,
     _GLOBAL__D__ZN10DriveTrainC2Ev,
+    _GLOBAL__D__ZN7ShooterC2Ev,
+    _GLOBAL__D__ZN8Trunnion3MAXE,
     _GLOBAL__D__ZN9Scheduler9_instanceE,
     _GLOBAL__D_wpi_error_s_ModuleIndexOutOfRange,
     _GLOBAL__D__ZN17MotorSafetyHelper12m_headHelperE,

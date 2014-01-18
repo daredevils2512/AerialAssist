@@ -385,7 +385,7 @@ CommandBasedRobotTemplate/Debug/Objects/AerialAssist/OI.o:  \
   C:/WindRiver/vxworks-6.3/target/h/WPILib/Vision/ColorImage.h \
   C:/WindRiver/vxworks-6.3/target/h/WPILib/WPIErrors.h \
   C:/WindRiver/vxworks-6.3/target/h/WPILib/SmartDashboard/SmartDashboard.h \
-  C:/WindRiver/workspace/AerialAssist/Commands/AutoMove.h \
+  C:/WindRiver/workspace/AerialAssist/Commands/AngleDown.h \
   C:/WindRiver/vxworks-6.3/target/h/WPILib/Commands/Subsystem.h \
   C:/WindRiver/workspace/AerialAssist/Commands/../Robot.h \
   C:/WindRiver/vxworks-6.3/target/h/WPILib/WPILib.h \
@@ -397,13 +397,26 @@ CommandBasedRobotTemplate/Debug/Objects/AerialAssist/OI.o:  \
   C:/WindRiver/workspace/AerialAssist/Commands/../Subsystems/DriveTrain.h \
   C:/WindRiver/vxworks-6.3/target/h/WPILib/Commands/Subsystem.h \
   C:/WindRiver/vxworks-6.3/target/h/WPILib/WPILib.h \
+  C:/WindRiver/workspace/AerialAssist/Commands/../Subsystems/Shooter.h \
+  C:/WindRiver/workspace/AerialAssist/Commands/../Subsystems/Trunnion.h \
   C:/WindRiver/workspace/AerialAssist/Commands/../OI.h \
+  C:/WindRiver/workspace/AerialAssist/Commands/AngleUp.h \
+  C:/WindRiver/workspace/AerialAssist/Commands/AutoMove.h \
   C:/WindRiver/workspace/AerialAssist/Commands/AutonomousCommand.h \
+  C:/WindRiver/workspace/AerialAssist/Commands/ClawClose.h \
+  C:/WindRiver/workspace/AerialAssist/Commands/ClawOpen.h \
   C:/WindRiver/workspace/AerialAssist/Commands/Drive.h \
+  C:/WindRiver/workspace/AerialAssist/Commands/GoToAngle.h \
+  C:/WindRiver/workspace/AerialAssist/Commands/Lock.h \
+  C:/WindRiver/workspace/AerialAssist/Commands/NoClawShot.h \
+  C:/WindRiver/vxworks-6.3/target/h/WPILib/Commands/CommandGroup.h \
+  C:/WindRiver/workspace/AerialAssist/Commands/PullBack.h \
+  C:/WindRiver/workspace/AerialAssist/Commands/Release.h \
   C:/WindRiver/workspace/AerialAssist/Commands/ShiftDown.h \
   C:/WindRiver/workspace/AerialAssist/Commands/ShiftUp.h \
   C:/WindRiver/workspace/AerialAssist/Commands/StopMotors.h \
-  C:/WindRiver/workspace/AerialAssist/Commands/TurnTo.h
+  C:/WindRiver/workspace/AerialAssist/Commands/TurnTo.h \
+  C:/WindRiver/workspace/AerialAssist/Commands/Unlock.h
 
 C:/WindRiver/workspace/AerialAssist/OI.h:
 
@@ -1175,7 +1188,7 @@ C:/WindRiver/vxworks-6.3/target/h/WPILib/WPIErrors.h:
 
 C:/WindRiver/vxworks-6.3/target/h/WPILib/SmartDashboard/SmartDashboard.h:
 
-C:/WindRiver/workspace/AerialAssist/Commands/AutoMove.h:
+C:/WindRiver/workspace/AerialAssist/Commands/AngleDown.h:
 
 C:/WindRiver/vxworks-6.3/target/h/WPILib/Commands/Subsystem.h:
 
@@ -1199,11 +1212,35 @@ C:/WindRiver/vxworks-6.3/target/h/WPILib/Commands/Subsystem.h:
 
 C:/WindRiver/vxworks-6.3/target/h/WPILib/WPILib.h:
 
+C:/WindRiver/workspace/AerialAssist/Commands/../Subsystems/Shooter.h:
+
+C:/WindRiver/workspace/AerialAssist/Commands/../Subsystems/Trunnion.h:
+
 C:/WindRiver/workspace/AerialAssist/Commands/../OI.h:
+
+C:/WindRiver/workspace/AerialAssist/Commands/AngleUp.h:
+
+C:/WindRiver/workspace/AerialAssist/Commands/AutoMove.h:
 
 C:/WindRiver/workspace/AerialAssist/Commands/AutonomousCommand.h:
 
+C:/WindRiver/workspace/AerialAssist/Commands/ClawClose.h:
+
+C:/WindRiver/workspace/AerialAssist/Commands/ClawOpen.h:
+
 C:/WindRiver/workspace/AerialAssist/Commands/Drive.h:
+
+C:/WindRiver/workspace/AerialAssist/Commands/GoToAngle.h:
+
+C:/WindRiver/workspace/AerialAssist/Commands/Lock.h:
+
+C:/WindRiver/workspace/AerialAssist/Commands/NoClawShot.h:
+
+C:/WindRiver/vxworks-6.3/target/h/WPILib/Commands/CommandGroup.h:
+
+C:/WindRiver/workspace/AerialAssist/Commands/PullBack.h:
+
+C:/WindRiver/workspace/AerialAssist/Commands/Release.h:
 
 C:/WindRiver/workspace/AerialAssist/Commands/ShiftDown.h:
 
@@ -1212,3 +1249,5 @@ C:/WindRiver/workspace/AerialAssist/Commands/ShiftUp.h:
 C:/WindRiver/workspace/AerialAssist/Commands/StopMotors.h:
 
 C:/WindRiver/workspace/AerialAssist/Commands/TurnTo.h:
+
+C:/WindRiver/workspace/AerialAssist/Commands/Unlock.h:
