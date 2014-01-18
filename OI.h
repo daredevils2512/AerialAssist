@@ -5,9 +5,12 @@
 
 class OI {
 private:
+	
+Joystick* stick2;
 
 public:
 	OI();
+	bool GetAngleUpButton();
 };
 
 #endif
