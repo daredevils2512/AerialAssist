@@ -8,6 +8,7 @@
 // update. Deleting the comments indicating the section will prevent
 // it from being updated in th future.
 #include "GoToAngle.h"
+#include <cmath>
 GoToAngle::GoToAngle(float ang) {
 	// Use requires() here to declare subsystem dependencies
 	// eg. requires(chassis);
@@ -18,11 +19,11 @@ GoToAngle::GoToAngle(float ang) {
 }
 // Called just before this Command runs the first time
 void GoToAngle::Initialize() {
-	
+	Robot::trunnion->Lock(false);
 }
 // Called repeatedly when this Command is scheduled to run
 void GoToAngle::Execute() {
-	if(abs(angle - Robot::trunnion->GetAngle()) > 5) {
+	if(fabs(angle - Robot::trunnion->GetAngle()) > 5) {
 		if(Robot::trunnion->GetAngle() > angle) {
 			Robot::trunnion->ChangeAngle(Trunnion::DOWN);
 		}
@@ -33,7 +34,7 @@ void GoToAngle::Execute() {
 }
 // Make this return true when this Command no longer needs to run execute()
 bool GoToAngle::IsFinished() {
-	if(abs(angle - Robot::trunnion->GetAngle()) > 5) {
+	if(fabs(angle - Robot::trunnion->GetAngle()) > 5) {
 		return false;
 	}
 	else {
@@ -43,6 +44,7 @@ bool GoToAngle::IsFinished() {
 // Called once after isFinished returns true
 void GoToAngle::End() {
 	Robot::trunnion->Stop();
+	Robot::trunnion->Lock(true);
 }
 // Called when another command which requires one or more of the same
 // subsystems is scheduled to run
