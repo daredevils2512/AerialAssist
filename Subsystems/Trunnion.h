@@ -33,7 +33,7 @@ public:
 	void InitDefaultCommand();
 	void ChangeAngle(AngleDirection angleDirection);
 	void Lock(bool lock);
-	double GetAngle();
+	float GetAngle();
 	void Stop();
 };
 #endif

@@ -23,12 +23,14 @@
  */
 class GoToAngle: public Command {
 public:
-	GoToAngle();
+	GoToAngle(float ang);
 	virtual void Initialize();
 	virtual void Execute();
 	virtual bool IsFinished();
 	virtual void End();
 	virtual void Interrupted();
+private:
+	float angle;
 };
 
 #endif

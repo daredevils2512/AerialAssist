@@ -17,7 +17,7 @@ Lock::Lock() {
 }
 // Called just before this Command runs the first time
 void Lock::Initialize() {
-	
+	Robot::trunnion->Lock(true);
 }
 // Called repeatedly when this Command is scheduled to run
 void Lock::Execute() {
@@ -25,7 +25,7 @@ void Lock::Execute() {
 }
 // Make this return true when this Command no longer needs to run execute()
 bool Lock::IsFinished() {
-	return false;
+	return true;
 }
 // Called once after isFinished returns true
 void Lock::End() {

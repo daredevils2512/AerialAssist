@@ -21,7 +21,7 @@ void AngleUp::Initialize() {
 }
 // Called repeatedly when this Command is scheduled to run
 void AngleUp::Execute() {
-	Robot::trunnion->ChangeAngle(Trunnion::DOWN);
+	Robot::trunnion->ChangeAngle(Trunnion::UP);
 }
 // Make this return true when this Command no longer needs to run execute()
 bool AngleUp::IsFinished() {

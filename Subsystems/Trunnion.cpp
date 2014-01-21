@@ -62,8 +62,8 @@ void Trunnion::Stop() {
 	armMotor->Set(0.0f);
 }
 
-double Trunnion::GetAngle() {
-	return armAngle->GetAverageVoltage();
+float Trunnion::GetAngle() {
+	return armAngle->GetAverageVoltage(); //TODO: Convert to degrees
 }
 // Put methods for controlling this subsystem
 // here. Call these from Commands.
