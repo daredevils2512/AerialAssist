@@ -407,6 +407,8 @@ CommandBassedRobotTemplate_partialImage/Debug/Objects/AerialAssist/OI.o:  \
   C:/WindRiver/workspace/AerialAssist/Commands/ClawOpen.h \
   C:/WindRiver/workspace/AerialAssist/Commands/Drive.h \
   C:/WindRiver/workspace/AerialAssist/Commands/GoToAngle.h \
+  c:/windriver/gnu/3.4.4-vxworks-6.3/x86-win32/lib/gcc/../../../x86-win32/include/c++/3.4.4/cmath \
+  C:/WindRiver/vxworks-6.3/target/h/math.h \
   C:/WindRiver/workspace/AerialAssist/Commands/Lock.h \
   C:/WindRiver/workspace/AerialAssist/Commands/NoClawShot.h \
   C:/WindRiver/vxworks-6.3/target/h/WPILib/Commands/CommandGroup.h \
@@ -1231,6 +1233,10 @@ C:/WindRiver/workspace/AerialAssist/Commands/ClawOpen.h:
 C:/WindRiver/workspace/AerialAssist/Commands/Drive.h:
 
 C:/WindRiver/workspace/AerialAssist/Commands/GoToAngle.h:
+
+c:/windriver/gnu/3.4.4-vxworks-6.3/x86-win32/lib/gcc/../../../x86-win32/include/c++/3.4.4/cmath:
+
+C:/WindRiver/vxworks-6.3/target/h/math.h:
 
 C:/WindRiver/workspace/AerialAssist/Commands/Lock.h:
 

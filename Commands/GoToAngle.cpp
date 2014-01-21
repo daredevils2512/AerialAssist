@@ -8,7 +8,6 @@
 // update. Deleting the comments indicating the section will prevent
 // it from being updated in th future.
 #include "GoToAngle.h"
-#include <cmath>
 GoToAngle::GoToAngle(float ang) {
 	// Use requires() here to declare subsystem dependencies
 	// eg. requires(chassis);

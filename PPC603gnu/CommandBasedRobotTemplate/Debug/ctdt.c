@@ -21,8 +21,6 @@ void _GLOBAL__I__ZN8ClawOpenC2Ev();
 
 void _GLOBAL__I__ZN5DriveC2Ev();
 
-void _GLOBAL__I__ZN4FireC2Ev();
-
 void _GLOBAL__I__ZN9GoToAngleC2Ef();
 
 void _GLOBAL__I__ZN4LockC2Ev();
@@ -115,7 +113,6 @@ void (*_ctors[])() =
     _GLOBAL__I__ZN9ClawCloseC2Ev,
     _GLOBAL__I__ZN8ClawOpenC2Ev,
     _GLOBAL__I__ZN5DriveC2Ev,
-    _GLOBAL__I__ZN4FireC2Ev,
     _GLOBAL__I__ZN9GoToAngleC2Ef,
     _GLOBAL__I__ZN4LockC2Ev,
     _GLOBAL__I__ZN8PullBackC2Ev,
@@ -173,8 +170,6 @@ void _GLOBAL__D__ZN9ClawCloseC2Ev();
 void _GLOBAL__D__ZN8ClawOpenC2Ev();
 
 void _GLOBAL__D__ZN5DriveC2Ev();
-
-void _GLOBAL__D__ZN4FireC2Ev();
 
 void _GLOBAL__D__ZN9GoToAngleC2Ef();
 
@@ -258,7 +253,6 @@ void (*_dtors[])() =
     _GLOBAL__D__ZN9ClawCloseC2Ev,
     _GLOBAL__D__ZN8ClawOpenC2Ev,
     _GLOBAL__D__ZN5DriveC2Ev,
-    _GLOBAL__D__ZN4FireC2Ev,
     _GLOBAL__D__ZN9GoToAngleC2Ef,
     _GLOBAL__D__ZN4LockC2Ev,
     _GLOBAL__D__ZN8PullBackC2Ev,

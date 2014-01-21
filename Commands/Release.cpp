@@ -17,7 +17,9 @@ Release::Release() {
 }
 // Called just before this Command runs the first time
 void Release::Initialize() {
-	
+	Robot::shooter->ReleaseDog(true);
+	SetTimeout(1/5);
+	SetInterruptible(false);
 }
 // Called repeatedly when this Command is scheduled to run
 void Release::Execute() {
@@ -25,11 +27,11 @@ void Release::Execute() {
 }
 // Make this return true when this Command no longer needs to run execute()
 bool Release::IsFinished() {
-	return false;
+	return IsTimedOut();
 }
 // Called once after isFinished returns true
 void Release::End() {
-	
+	Robot::shooter->ReleaseDog(false);
 }
 // Called when another command which requires one or more of the same
 // subsystems is scheduled to run

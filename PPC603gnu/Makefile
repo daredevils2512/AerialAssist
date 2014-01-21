@@ -145,10 +145,6 @@ CommandBasedRobotTemplate/$(MODE_DIR)/Objects/AerialAssist/Commands/Drive.o : $(
 	$(TRACE_FLAG)if [ ! -d "`dirname "$@"`" ]; then mkdir -p "`dirname "$@"`"; fi;echo "building $@"; $(TOOL_PATH)ccppc $(DEBUGFLAGS_C++-Compiler) $(CC_ARCH_SPEC) -ansi -Wall  -MD -MP -mlongcall $(ADDED_C++FLAGS) $(IDE_INCLUDES) $(ADDED_INCLUDES) -DCPU=$(CPU) -DTOOL_FAMILY=$(TOOL_FAMILY) -DTOOL=$(TOOL) -D_WRS_KERNEL   $(DEFINES) -o "$@" -c "$<"
 
 
-CommandBasedRobotTemplate/$(MODE_DIR)/Objects/AerialAssist/Commands/Fire.o : $(PRJ_ROOT_DIR)/Commands/Fire.cpp $(FORCE_FILE_BUILD)
-	$(TRACE_FLAG)if [ ! -d "`dirname "$@"`" ]; then mkdir -p "`dirname "$@"`"; fi;echo "building $@"; $(TOOL_PATH)ccppc $(DEBUGFLAGS_C++-Compiler) $(CC_ARCH_SPEC) -ansi -Wall  -MD -MP -mlongcall $(ADDED_C++FLAGS) $(IDE_INCLUDES) $(ADDED_INCLUDES) -DCPU=$(CPU) -DTOOL_FAMILY=$(TOOL_FAMILY) -DTOOL=$(TOOL) -D_WRS_KERNEL   $(DEFINES) -o "$@" -c "$<"
-
-
 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/AerialAssist/Commands/GoToAngle.o : $(PRJ_ROOT_DIR)/Commands/GoToAngle.cpp $(FORCE_FILE_BUILD)
 	$(TRACE_FLAG)if [ ! -d "`dirname "$@"`" ]; then mkdir -p "`dirname "$@"`"; fi;echo "building $@"; $(TOOL_PATH)ccppc $(DEBUGFLAGS_C++-Compiler) $(CC_ARCH_SPEC) -ansi -Wall  -MD -MP -mlongcall $(ADDED_C++FLAGS) $(IDE_INCLUDES) $(ADDED_INCLUDES) -DCPU=$(CPU) -DTOOL_FAMILY=$(TOOL_FAMILY) -DTOOL=$(TOOL) -D_WRS_KERNEL   $(DEFINES) -o "$@" -c "$<"
 
@@ -224,7 +220,6 @@ OBJECTS_CommandBasedRobotTemplate = CommandBasedRobotTemplate/$(MODE_DIR)/Object
 	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/AerialAssist/Commands/ClawClose.o \
 	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/AerialAssist/Commands/ClawOpen.o \
 	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/AerialAssist/Commands/Drive.o \
-	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/AerialAssist/Commands/Fire.o \
 	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/AerialAssist/Commands/GoToAngle.o \
 	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/AerialAssist/Commands/Lock.o \
 	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/AerialAssist/Commands/NoClawShot.o \
@@ -314,10 +309,6 @@ CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/AerialAssist/Command
 	$(TRACE_FLAG)if [ ! -d "`dirname "$@"`" ]; then mkdir -p "`dirname "$@"`"; fi;echo "building $@"; $(TOOL_PATH)ccppc $(DEBUGFLAGS_C++-Compiler) $(CC_ARCH_SPEC) -ansi -Wall  -MD -MP -mlongcall $(ADDED_C++FLAGS) $(IDE_INCLUDES) $(ADDED_INCLUDES) -DCPU=$(CPU) -DTOOL_FAMILY=$(TOOL_FAMILY) -DTOOL=$(TOOL) -D_WRS_KERNEL   $(DEFINES) -o "$@" -c "$<"
 
 
-CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/AerialAssist/Commands/Fire.o : $(PRJ_ROOT_DIR)/Commands/Fire.cpp $(FORCE_FILE_BUILD)
-	$(TRACE_FLAG)if [ ! -d "`dirname "$@"`" ]; then mkdir -p "`dirname "$@"`"; fi;echo "building $@"; $(TOOL_PATH)ccppc $(DEBUGFLAGS_C++-Compiler) $(CC_ARCH_SPEC) -ansi -Wall  -MD -MP -mlongcall $(ADDED_C++FLAGS) $(IDE_INCLUDES) $(ADDED_INCLUDES) -DCPU=$(CPU) -DTOOL_FAMILY=$(TOOL_FAMILY) -DTOOL=$(TOOL) -D_WRS_KERNEL   $(DEFINES) -o "$@" -c "$<"
-
-
 CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/AerialAssist/Commands/GoToAngle.o : $(PRJ_ROOT_DIR)/Commands/GoToAngle.cpp $(FORCE_FILE_BUILD)
 	$(TRACE_FLAG)if [ ! -d "`dirname "$@"`" ]; then mkdir -p "`dirname "$@"`"; fi;echo "building $@"; $(TOOL_PATH)ccppc $(DEBUGFLAGS_C++-Compiler) $(CC_ARCH_SPEC) -ansi -Wall  -MD -MP -mlongcall $(ADDED_C++FLAGS) $(IDE_INCLUDES) $(ADDED_INCLUDES) -DCPU=$(CPU) -DTOOL_FAMILY=$(TOOL_FAMILY) -DTOOL=$(TOOL) -D_WRS_KERNEL   $(DEFINES) -o "$@" -c "$<"
 
@@ -393,7 +384,6 @@ OBJECTS_CommandBassedRobotTemplate_partialImage = CommandBassedRobotTemplate_par
 	 CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/AerialAssist/Commands/ClawClose.o \
 	 CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/AerialAssist/Commands/ClawOpen.o \
 	 CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/AerialAssist/Commands/Drive.o \
-	 CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/AerialAssist/Commands/Fire.o \
 	 CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/AerialAssist/Commands/GoToAngle.o \
 	 CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/AerialAssist/Commands/Lock.o \
 	 CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/AerialAssist/Commands/NoClawShot.o \
@@ -426,21 +416,20 @@ force :
 
 DEP_FILES := CommandBasedRobotTemplate/$(MODE_DIR)/Objects/AerialAssist/Commands/AngleDown.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/AerialAssist/Commands/AngleUp.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/AerialAssist/Commands/AutoMove.d \
 	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/AerialAssist/Commands/AutonomousCommand.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/AerialAssist/Commands/ClawClose.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/AerialAssist/Commands/ClawOpen.d \
-	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/AerialAssist/Commands/Drive.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/AerialAssist/Commands/Fire.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/AerialAssist/Commands/GoToAngle.d \
-	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/AerialAssist/Commands/Lock.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/AerialAssist/Commands/NoClawShot.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/AerialAssist/Commands/PullBack.d \
-	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/AerialAssist/Commands/Release.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/AerialAssist/Commands/ShiftDown.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/AerialAssist/Commands/ShiftUp.d \
-	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/AerialAssist/Commands/Shoot.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/AerialAssist/Commands/StopMotors.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/AerialAssist/Commands/TurnTo.d \
-	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/AerialAssist/Commands/Unlock.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/AerialAssist/OI.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/AerialAssist/Robot.d \
-	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/AerialAssist/RobotMap.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/AerialAssist/Subsystems/DriveTrain.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/AerialAssist/Subsystems/Shooter.d \
-	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/AerialAssist/Subsystems/Trunnion.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/AerialAssist/Commands/AngleDown.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/AerialAssist/Commands/AngleUp.d \
-	 CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/AerialAssist/Commands/AutoMove.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/AerialAssist/Commands/AutonomousCommand.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/AerialAssist/Commands/ClawClose.d \
-	 CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/AerialAssist/Commands/ClawOpen.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/AerialAssist/Commands/Drive.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/AerialAssist/Commands/Fire.d \
-	 CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/AerialAssist/Commands/GoToAngle.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/AerialAssist/Commands/Lock.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/AerialAssist/Commands/NoClawShot.d \
-	 CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/AerialAssist/Commands/PullBack.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/AerialAssist/Commands/Release.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/AerialAssist/Commands/ShiftDown.d \
-	 CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/AerialAssist/Commands/ShiftUp.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/AerialAssist/Commands/Shoot.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/AerialAssist/Commands/StopMotors.d \
-	 CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/AerialAssist/Commands/TurnTo.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/AerialAssist/Commands/Unlock.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/AerialAssist/OI.d \
-	 CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/AerialAssist/Robot.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/AerialAssist/RobotMap.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/AerialAssist/Subsystems/DriveTrain.d \
-	 CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/AerialAssist/Subsystems/Shooter.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/AerialAssist/Subsystems/Trunnion.d
+	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/AerialAssist/Commands/Drive.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/AerialAssist/Commands/GoToAngle.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/AerialAssist/Commands/Lock.d \
+	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/AerialAssist/Commands/NoClawShot.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/AerialAssist/Commands/PullBack.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/AerialAssist/Commands/Release.d \
+	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/AerialAssist/Commands/ShiftDown.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/AerialAssist/Commands/ShiftUp.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/AerialAssist/Commands/Shoot.d \
+	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/AerialAssist/Commands/StopMotors.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/AerialAssist/Commands/TurnTo.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/AerialAssist/Commands/Unlock.d \
+	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/AerialAssist/OI.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/AerialAssist/Robot.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/AerialAssist/RobotMap.d \
+	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/AerialAssist/Subsystems/DriveTrain.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/AerialAssist/Subsystems/Shooter.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/AerialAssist/Subsystems/Trunnion.d \
+	 CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/AerialAssist/Commands/AngleDown.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/AerialAssist/Commands/AngleUp.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/AerialAssist/Commands/AutoMove.d \
+	 CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/AerialAssist/Commands/AutonomousCommand.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/AerialAssist/Commands/ClawClose.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/AerialAssist/Commands/ClawOpen.d \
+	 CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/AerialAssist/Commands/Drive.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/AerialAssist/Commands/GoToAngle.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/AerialAssist/Commands/Lock.d \
+	 CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/AerialAssist/Commands/NoClawShot.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/AerialAssist/Commands/PullBack.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/AerialAssist/Commands/Release.d \
+	 CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/AerialAssist/Commands/ShiftDown.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/AerialAssist/Commands/ShiftUp.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/AerialAssist/Commands/Shoot.d \
+	 CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/AerialAssist/Commands/StopMotors.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/AerialAssist/Commands/TurnTo.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/AerialAssist/Commands/Unlock.d \
+	 CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/AerialAssist/OI.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/AerialAssist/Robot.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/AerialAssist/RobotMap.d \
+	 CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/AerialAssist/Subsystems/DriveTrain.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/AerialAssist/Subsystems/Shooter.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/AerialAssist/Subsystems/Trunnion.d
 -include $(DEP_FILES)
 
 
