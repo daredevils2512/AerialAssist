@@ -37,5 +37,6 @@ public:
 	void Gear(bool dir);
 	void Stop();
 	void Go(float speed);
+	float GetDistance();
 };
 #endif
