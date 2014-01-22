@@ -20,7 +20,7 @@ AutonomousCommand::AutonomousCommand() {
 	//      AddSequential(new Command2());
 	// these will run in order.
 	AddSequential(new AutoMove(1.0, 100));
-	AddSequential(new TurnTo(90));
+	AddSequential(new TurnTo(DriveTrain::RIGHT, 90));
 	// To run multiple commands at the same time,
 	// use AddParallel()
 	// e.g. AddParallel(new Command1());

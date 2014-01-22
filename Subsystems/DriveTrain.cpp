@@ -42,9 +42,19 @@ void DriveTrain::Stop() {
 void DriveTrain::Go(float speed) {
 	robotDrive->Drive(speed, wantedAngle - (gyro->GetAngle() / 30.0));
 }
-
 float DriveTrain::GetDistance() {
 	return rightEncoder->Get();
+}
+float DriveTrain::GetDirection() {
+	return gyro->GetAngle();
+}
+void DriveTrain::TurnRight() {
+	leftDriveMotor->Set(-1);
+	rightDriveMotor->Set(1);
+}
+void DriveTrain::TurnLeft() {
+	leftDriveMotor->Set(1);
+	rightDriveMotor->Set(-1);
 }
 // Put methods for controlling this subsystem
 // here. Call these from Commands.

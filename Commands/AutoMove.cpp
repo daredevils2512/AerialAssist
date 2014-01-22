@@ -28,11 +28,16 @@ void AutoMove::Execute() {
 }
 // Make this return true when this Command no longer needs to run execute()
 bool AutoMove::IsFinished() {
-	return false;
+	if(Robot::driveTrain->GetDistance() >= distance) {
+		return true;
+	}
+	else {
+		return false;
+	}
 }
 // Called once after isFinished returns true
 void AutoMove::End() {
-	
+	Robot::driveTrain->Stop();
 }
 // Called when another command which requires one or more of the same
 // subsystems is scheduled to run

@@ -23,13 +23,14 @@
  */
 class TurnTo: public Command {
 public:
-	TurnTo(float ang);
+	TurnTo(DriveTrain::TurnDirection dir, float ang);
 	virtual void Initialize();
 	virtual void Execute();
 	virtual bool IsFinished();
 	virtual void End();
 	virtual void Interrupted();
 private:
+	DriveTrain::TurnDirection direction;
 	float angle;
 };
 
