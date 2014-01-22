@@ -30,7 +30,7 @@ public:
 	static SpeedController* shooterShooterMotor;
 	static Solenoid* shooterRelease;
 	static Solenoid* shooterClaw;
-	static Encoder* shooterPullBackEncoder;
+	static DigitalInput* shooterLightSensor;
 	static SpeedController* trunnionArmMotor;
 	static AnalogChannel* trunnionArmAngle;
 	static Solenoid* trunnionBrake;

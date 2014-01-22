@@ -17,7 +17,8 @@ PullBack::PullBack() {
 }
 // Called just before this Command runs the first time
 void PullBack::Initialize() {
-	
+	SetTimeout(1); //TODO: Set timeout to backup time for pullback
+	Robot::shooter->Pull();
 }
 // Called repeatedly when this Command is scheduled to run
 void PullBack::Execute() {
@@ -25,10 +26,16 @@ void PullBack::Execute() {
 }
 // Make this return true when this Command no longer needs to run execute()
 bool PullBack::IsFinished() {
-	return false;
+	if(IsTimedOut() || Robot::shooter->GetLight()) {
+		return true;
+	}
+	else {
+		return false;
+	}
 }
 // Called once after isFinished returns true
 void PullBack::End() {
+	Robot::shooter->StopPulling();
 	
 }
 // Called when another command which requires one or more of the same

@@ -21,7 +21,7 @@ Solenoid* RobotMap::driveTrainRightShiftSolenoid = NULL;
 SpeedController* RobotMap::shooterShooterMotor = NULL;
 Solenoid* RobotMap::shooterRelease = NULL;
 Solenoid* RobotMap::shooterClaw = NULL;
-Encoder* RobotMap::shooterPullBackEncoder = NULL;
+DigitalInput* RobotMap::shooterLightSensor = NULL;
 SpeedController* RobotMap::trunnionArmMotor = NULL;
 AnalogChannel* RobotMap::trunnionArmAngle = NULL;
 Solenoid* RobotMap::trunnionBrake = NULL;
@@ -70,11 +70,9 @@ void RobotMap::init() {
 	shooterClaw = new Solenoid(1, 4);
 	lw->AddActuator("Shooter", "Claw", shooterClaw);
 	
-	shooterPullBackEncoder = new Encoder(1, 4, 1, 5, false, Encoder::k4X);
-	lw->AddSensor("Shooter", "PullBackEncoder", shooterPullBackEncoder);
-	shooterPullBackEncoder->SetDistancePerPulse(1.0);
-        shooterPullBackEncoder->SetPIDSourceParameter(Encoder::kRate);
-        shooterPullBackEncoder->Start();
+	shooterLightSensor = new DigitalInput(1, 4);
+	lw->AddSensor("Shooter", "LightSensor", shooterLightSensor);
+	
 	trunnionArmMotor = new Talon(1, 3);
 	lw->AddActuator("Trunnion", "ArmMotor", (Talon*) trunnionArmMotor);
 	
