@@ -29,6 +29,10 @@ void _GLOBAL__I__ZN8PullBackC2Ev();
 
 void _GLOBAL__I__ZN7ReleaseC2Ev();
 
+void _GLOBAL__I__ZN16SetCameraForAutoC2Ev();
+
+void _GLOBAL__I__ZN18SetCameraForTeleopC2Ev();
+
 void _GLOBAL__I__ZN9ShiftDownC2Ev();
 
 void _GLOBAL__I__ZN7ShiftUpC2Ev();
@@ -125,6 +129,8 @@ void (*_ctors[])() =
     _GLOBAL__I__ZN4LockC2Ev,
     _GLOBAL__I__ZN8PullBackC2Ev,
     _GLOBAL__I__ZN7ReleaseC2Ev,
+    _GLOBAL__I__ZN16SetCameraForAutoC2Ev,
+    _GLOBAL__I__ZN18SetCameraForTeleopC2Ev,
     _GLOBAL__I__ZN9ShiftDownC2Ev,
     _GLOBAL__I__ZN7ShiftUpC2Ev,
     _GLOBAL__I__ZN5ShootC2Ev,
@@ -190,6 +196,10 @@ void _GLOBAL__D__ZN4LockC2Ev();
 void _GLOBAL__D__ZN8PullBackC2Ev();
 
 void _GLOBAL__D__ZN7ReleaseC2Ev();
+
+void _GLOBAL__D__ZN16SetCameraForAutoC2Ev();
+
+void _GLOBAL__D__ZN18SetCameraForTeleopC2Ev();
 
 void _GLOBAL__D__ZN9ShiftDownC2Ev();
 
@@ -277,6 +287,8 @@ void (*_dtors[])() =
     _GLOBAL__D__ZN4LockC2Ev,
     _GLOBAL__D__ZN8PullBackC2Ev,
     _GLOBAL__D__ZN7ReleaseC2Ev,
+    _GLOBAL__D__ZN16SetCameraForAutoC2Ev,
+    _GLOBAL__D__ZN18SetCameraForTeleopC2Ev,
     _GLOBAL__D__ZN9ShiftDownC2Ev,
     _GLOBAL__D__ZN7ShiftUpC2Ev,
     _GLOBAL__D__ZN5ShootC2Ev,

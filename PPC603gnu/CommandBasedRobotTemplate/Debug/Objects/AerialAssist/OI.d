@@ -420,6 +420,8 @@ CommandBasedRobotTemplate/Debug/Objects/AerialAssist/OI.o:  \
   C:/WindRiver/vxworks-6.3/target/h/WPILib/Commands/CommandGroup.h \
   C:/WindRiver/workspace/AerialAssist/Commands/PullBack.h \
   C:/WindRiver/workspace/AerialAssist/Commands/Release.h \
+  C:/WindRiver/workspace/AerialAssist/Commands/SetCameraForAuto.h \
+  C:/WindRiver/workspace/AerialAssist/Commands/SetCameraForTeleop.h \
   C:/WindRiver/workspace/AerialAssist/Commands/ShiftDown.h \
   C:/WindRiver/workspace/AerialAssist/Commands/ShiftUp.h \
   C:/WindRiver/workspace/AerialAssist/Commands/StopMotors.h \
@@ -1266,6 +1268,10 @@ C:/WindRiver/vxworks-6.3/target/h/WPILib/Commands/CommandGroup.h:
 C:/WindRiver/workspace/AerialAssist/Commands/PullBack.h:
 
 C:/WindRiver/workspace/AerialAssist/Commands/Release.h:
+
+C:/WindRiver/workspace/AerialAssist/Commands/SetCameraForAuto.h:
+
+C:/WindRiver/workspace/AerialAssist/Commands/SetCameraForTeleop.h:
 
 C:/WindRiver/workspace/AerialAssist/Commands/ShiftDown.h:
 
