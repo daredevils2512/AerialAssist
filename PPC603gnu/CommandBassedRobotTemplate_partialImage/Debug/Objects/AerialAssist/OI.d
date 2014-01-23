@@ -427,7 +427,8 @@ CommandBassedRobotTemplate_partialImage/Debug/Objects/AerialAssist/OI.o:  \
   C:/WindRiver/workspace/AerialAssist/Commands/StopMotors.h \
   C:/WindRiver/workspace/AerialAssist/Commands/TurnTo.h \
   C:/WindRiver/workspace/AerialAssist/Commands/Unlock.h \
-  C:/WindRiver/workspace/AerialAssist/Commands/VisionCheck.h
+  C:/WindRiver/workspace/AerialAssist/Commands/VisionCheck.h \
+  C:/WindRiver/workspace/AerialAssist/Commands/VisionTrack.h
 
 C:/WindRiver/workspace/AerialAssist/OI.h:
 
@@ -1284,3 +1285,5 @@ C:/WindRiver/workspace/AerialAssist/Commands/TurnTo.h:
 C:/WindRiver/workspace/AerialAssist/Commands/Unlock.h:
 
 C:/WindRiver/workspace/AerialAssist/Commands/VisionCheck.h:
+
+C:/WindRiver/workspace/AerialAssist/Commands/VisionTrack.h:

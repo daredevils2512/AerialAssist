@@ -47,6 +47,8 @@ void _GLOBAL__I__ZN6UnlockC2Ev();
 
 void _GLOBAL__I__ZN11VisionCheckC2Ev();
 
+void _GLOBAL__I__ZN11VisionTrackC2Ev();
+
 void _GLOBAL__I__ZN2OIC2Ev();
 
 void _GLOBAL__I__ZN5Robot10driveTrainE();
@@ -138,6 +140,7 @@ void (*_ctors[])() =
     _GLOBAL__I__ZN6TurnToC2EN10DriveTrain13TurnDirectionEf,
     _GLOBAL__I__ZN6UnlockC2Ev,
     _GLOBAL__I__ZN11VisionCheckC2Ev,
+    _GLOBAL__I__ZN11VisionTrackC2Ev,
     _GLOBAL__I__ZN2OIC2Ev,
     _GLOBAL__I__ZN5Robot10driveTrainE,
     _GLOBAL__I__ZN8RobotMap24driveTrainLeftDriveMotorE,
@@ -214,6 +217,8 @@ void _GLOBAL__D__ZN6TurnToC2EN10DriveTrain13TurnDirectionEf();
 void _GLOBAL__D__ZN6UnlockC2Ev();
 
 void _GLOBAL__D__ZN11VisionCheckC2Ev();
+
+void _GLOBAL__D__ZN11VisionTrackC2Ev();
 
 void _GLOBAL__D__ZN2OIC2Ev();
 
@@ -296,6 +301,7 @@ void (*_dtors[])() =
     _GLOBAL__D__ZN6TurnToC2EN10DriveTrain13TurnDirectionEf,
     _GLOBAL__D__ZN6UnlockC2Ev,
     _GLOBAL__D__ZN11VisionCheckC2Ev,
+    _GLOBAL__D__ZN11VisionTrackC2Ev,
     _GLOBAL__D__ZN2OIC2Ev,
     _GLOBAL__D__ZN5Robot10driveTrainE,
     _GLOBAL__D__ZN8RobotMap24driveTrainLeftDriveMotorE,
