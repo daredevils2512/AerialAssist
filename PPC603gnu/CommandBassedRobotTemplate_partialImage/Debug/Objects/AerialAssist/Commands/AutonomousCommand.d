@@ -1,7 +1,7 @@
  \
  CommandBassedRobotTemplate_partialImage/Debug/Objects/AerialAssist/Commands/AutonomousCommand.o:  \
  C:/WindRiver/workspace/AerialAssist/Commands/AutonomousCommand.cpp \
-  C:/WindRiver/workspace/AerialAssist/Commands/AutoMove.h \
+  C:/WindRiver/workspace/AerialAssist/Commands/AutonomousCommand.h \
   C:/WindRiver/vxworks-6.3/target/h/WPILib/Commands/Subsystem.h \
   C:/WindRiver/vxworks-6.3/target/h/WPILib/ErrorBase.h \
   C:/WindRiver/vxworks-6.3/target/h/WPILib/Base.h \
@@ -389,7 +389,6 @@
   C:/WindRiver/workspace/AerialAssist/Commands/../RobotMap.h \
   C:/WindRiver/vxworks-6.3/target/h/WPILib/LiveWindow/LiveWindow.h \
   C:/WindRiver/workspace/AerialAssist/Commands/../Commands/AutonomousCommand.h \
-  C:/WindRiver/vxworks-6.3/target/h/WPILib/Commands/CommandGroup.h \
   C:/WindRiver/workspace/AerialAssist/Commands/../Subsystems/DriveTrain.h \
   C:/WindRiver/vxworks-6.3/target/h/WPILib/Commands/Subsystem.h \
   C:/WindRiver/vxworks-6.3/target/h/WPILib/WPILib.h \
@@ -401,11 +400,9 @@
   C:/WindRiver/vxworks-6.3/target/h/WPILib/Vision/RGBImage.h \
   C:/WindRiver/vxworks-6.3/target/h/WPILib/Vision/BinaryImage.h \
   C:/WindRiver/vxworks-6.3/target/h/Math.h \
-  C:/WindRiver/workspace/AerialAssist/Commands/../OI.h \
-  C:/WindRiver/workspace/AerialAssist/Commands/TurnTo.h \
-  C:/WindRiver/workspace/AerialAssist/Commands/AutonomousCommand.h
+  C:/WindRiver/workspace/AerialAssist/Commands/../OI.h
 
-C:/WindRiver/workspace/AerialAssist/Commands/AutoMove.h:
+C:/WindRiver/workspace/AerialAssist/Commands/AutonomousCommand.h:
 
 C:/WindRiver/vxworks-6.3/target/h/WPILib/Commands/Subsystem.h:
 
@@ -1181,8 +1178,6 @@ C:/WindRiver/vxworks-6.3/target/h/WPILib/LiveWindow/LiveWindow.h:
 
 C:/WindRiver/workspace/AerialAssist/Commands/../Commands/AutonomousCommand.h:
 
-C:/WindRiver/vxworks-6.3/target/h/WPILib/Commands/CommandGroup.h:
-
 C:/WindRiver/workspace/AerialAssist/Commands/../Subsystems/DriveTrain.h:
 
 C:/WindRiver/vxworks-6.3/target/h/WPILib/Commands/Subsystem.h:
@@ -1206,7 +1201,3 @@ C:/WindRiver/vxworks-6.3/target/h/WPILib/Vision/BinaryImage.h:
 C:/WindRiver/vxworks-6.3/target/h/Math.h:
 
 C:/WindRiver/workspace/AerialAssist/Commands/../OI.h:
-
-C:/WindRiver/workspace/AerialAssist/Commands/TurnTo.h:
-
-C:/WindRiver/workspace/AerialAssist/Commands/AutonomousCommand.h:

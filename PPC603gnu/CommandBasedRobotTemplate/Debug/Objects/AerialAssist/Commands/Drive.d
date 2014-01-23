@@ -387,8 +387,6 @@ CommandBasedRobotTemplate/Debug/Objects/AerialAssist/Commands/Drive.o:  \
   C:/WindRiver/vxworks-6.3/target/h/WPILib/Commands/Command.h \
   C:/WindRiver/workspace/AerialAssist/Commands/../RobotMap.h \
   C:/WindRiver/vxworks-6.3/target/h/WPILib/LiveWindow/LiveWindow.h \
-  C:/WindRiver/workspace/AerialAssist/Commands/../Commands/AutonomousCommand.h \
-  C:/WindRiver/vxworks-6.3/target/h/WPILib/Commands/CommandGroup.h \
   C:/WindRiver/workspace/AerialAssist/Commands/../Subsystems/DriveTrain.h \
   C:/WindRiver/vxworks-6.3/target/h/WPILib/Commands/Subsystem.h \
   C:/WindRiver/vxworks-6.3/target/h/WPILib/WPILib.h \
@@ -1175,10 +1173,6 @@ C:/WindRiver/vxworks-6.3/target/h/WPILib/Commands/Command.h:
 C:/WindRiver/workspace/AerialAssist/Commands/../RobotMap.h:
 
 C:/WindRiver/vxworks-6.3/target/h/WPILib/LiveWindow/LiveWindow.h:
-
-C:/WindRiver/workspace/AerialAssist/Commands/../Commands/AutonomousCommand.h:
-
-C:/WindRiver/vxworks-6.3/target/h/WPILib/Commands/CommandGroup.h:
 
 C:/WindRiver/workspace/AerialAssist/Commands/../Subsystems/DriveTrain.h:
 

@@ -392,8 +392,6 @@ CommandBassedRobotTemplate_partialImage/Debug/Objects/AerialAssist/OI.o:  \
   C:/WindRiver/vxworks-6.3/target/h/WPILib/Commands/Command.h \
   C:/WindRiver/workspace/AerialAssist/Commands/../RobotMap.h \
   C:/WindRiver/vxworks-6.3/target/h/WPILib/LiveWindow/LiveWindow.h \
-  C:/WindRiver/workspace/AerialAssist/Commands/../Commands/AutonomousCommand.h \
-  C:/WindRiver/vxworks-6.3/target/h/WPILib/Commands/CommandGroup.h \
   C:/WindRiver/workspace/AerialAssist/Commands/../Subsystems/DriveTrain.h \
   C:/WindRiver/vxworks-6.3/target/h/WPILib/Commands/Subsystem.h \
   C:/WindRiver/vxworks-6.3/target/h/WPILib/WPILib.h \
@@ -408,18 +406,20 @@ CommandBassedRobotTemplate_partialImage/Debug/Objects/AerialAssist/OI.o:  \
   C:/WindRiver/workspace/AerialAssist/Commands/../OI.h \
   C:/WindRiver/workspace/AerialAssist/Commands/AngleUp.h \
   C:/WindRiver/workspace/AerialAssist/Commands/AutoMove.h \
-  C:/WindRiver/workspace/AerialAssist/Commands/AutonomousCommand.h \
+  C:/WindRiver/workspace/AerialAssist/Commands/CenterAuto.h \
+  C:/WindRiver/vxworks-6.3/target/h/WPILib/Commands/CommandGroup.h \
   C:/WindRiver/workspace/AerialAssist/Commands/ClawClose.h \
   C:/WindRiver/workspace/AerialAssist/Commands/ClawOpen.h \
   C:/WindRiver/workspace/AerialAssist/Commands/Drive.h \
   C:/WindRiver/workspace/AerialAssist/Commands/GoToAngle.h \
   c:/windriver/gnu/3.4.4-vxworks-6.3/x86-win32/lib/gcc/../../../x86-win32/include/c++/3.4.4/cmath \
   C:/WindRiver/vxworks-6.3/target/h/math.h \
+  C:/WindRiver/workspace/AerialAssist/Commands/LeftAuto.h \
   C:/WindRiver/workspace/AerialAssist/Commands/Lock.h \
   C:/WindRiver/workspace/AerialAssist/Commands/NoClawShot.h \
-  C:/WindRiver/vxworks-6.3/target/h/WPILib/Commands/CommandGroup.h \
   C:/WindRiver/workspace/AerialAssist/Commands/PullBack.h \
   C:/WindRiver/workspace/AerialAssist/Commands/Release.h \
+  C:/WindRiver/workspace/AerialAssist/Commands/RightAuto.h \
   C:/WindRiver/workspace/AerialAssist/Commands/SetCameraForAuto.h \
   C:/WindRiver/workspace/AerialAssist/Commands/SetCameraForTeleop.h \
   C:/WindRiver/workspace/AerialAssist/Commands/ShiftDown.h \
@@ -1214,10 +1214,6 @@ C:/WindRiver/workspace/AerialAssist/Commands/../RobotMap.h:
 
 C:/WindRiver/vxworks-6.3/target/h/WPILib/LiveWindow/LiveWindow.h:
 
-C:/WindRiver/workspace/AerialAssist/Commands/../Commands/AutonomousCommand.h:
-
-C:/WindRiver/vxworks-6.3/target/h/WPILib/Commands/CommandGroup.h:
-
 C:/WindRiver/workspace/AerialAssist/Commands/../Subsystems/DriveTrain.h:
 
 C:/WindRiver/vxworks-6.3/target/h/WPILib/Commands/Subsystem.h:
@@ -1246,7 +1242,9 @@ C:/WindRiver/workspace/AerialAssist/Commands/AngleUp.h:
 
 C:/WindRiver/workspace/AerialAssist/Commands/AutoMove.h:
 
-C:/WindRiver/workspace/AerialAssist/Commands/AutonomousCommand.h:
+C:/WindRiver/workspace/AerialAssist/Commands/CenterAuto.h:
+
+C:/WindRiver/vxworks-6.3/target/h/WPILib/Commands/CommandGroup.h:
 
 C:/WindRiver/workspace/AerialAssist/Commands/ClawClose.h:
 
@@ -1260,15 +1258,17 @@ c:/windriver/gnu/3.4.4-vxworks-6.3/x86-win32/lib/gcc/../../../x86-win32/include/
 
 C:/WindRiver/vxworks-6.3/target/h/math.h:
 
+C:/WindRiver/workspace/AerialAssist/Commands/LeftAuto.h:
+
 C:/WindRiver/workspace/AerialAssist/Commands/Lock.h:
 
 C:/WindRiver/workspace/AerialAssist/Commands/NoClawShot.h:
 
-C:/WindRiver/vxworks-6.3/target/h/WPILib/Commands/CommandGroup.h:
-
 C:/WindRiver/workspace/AerialAssist/Commands/PullBack.h:
 
 C:/WindRiver/workspace/AerialAssist/Commands/Release.h:
+
+C:/WindRiver/workspace/AerialAssist/Commands/RightAuto.h:
 
 C:/WindRiver/workspace/AerialAssist/Commands/SetCameraForAuto.h:
 
