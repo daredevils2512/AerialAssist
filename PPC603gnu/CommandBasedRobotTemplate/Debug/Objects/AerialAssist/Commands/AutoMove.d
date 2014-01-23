@@ -394,6 +394,12 @@ CommandBasedRobotTemplate/Debug/Objects/AerialAssist/Commands/AutoMove.o:  \
   C:/WindRiver/vxworks-6.3/target/h/WPILib/WPILib.h \
   C:/WindRiver/workspace/AerialAssist/Commands/../Subsystems/Shooter.h \
   C:/WindRiver/workspace/AerialAssist/Commands/../Subsystems/Trunnion.h \
+  C:/WindRiver/workspace/AerialAssist/Commands/../Subsystems/VisionSubsystem.h \
+  C:/WindRiver/workspace/AerialAssist/Commands/../Subsystems/../VisionSample2014/VisionSample2014.h \
+  C:/WindRiver/vxworks-6.3/target/h/WPILib/WPILib.h \
+  C:/WindRiver/vxworks-6.3/target/h/WPILib/Vision/RGBImage.h \
+  C:/WindRiver/vxworks-6.3/target/h/WPILib/Vision/BinaryImage.h \
+  C:/WindRiver/vxworks-6.3/target/h/Math.h \
   C:/WindRiver/workspace/AerialAssist/Commands/../OI.h
 
 C:/WindRiver/workspace/AerialAssist/Commands/AutoMove.h:
@@ -1183,5 +1189,17 @@ C:/WindRiver/vxworks-6.3/target/h/WPILib/WPILib.h:
 C:/WindRiver/workspace/AerialAssist/Commands/../Subsystems/Shooter.h:
 
 C:/WindRiver/workspace/AerialAssist/Commands/../Subsystems/Trunnion.h:
+
+C:/WindRiver/workspace/AerialAssist/Commands/../Subsystems/VisionSubsystem.h:
+
+C:/WindRiver/workspace/AerialAssist/Commands/../Subsystems/../VisionSample2014/VisionSample2014.h:
+
+C:/WindRiver/vxworks-6.3/target/h/WPILib/WPILib.h:
+
+C:/WindRiver/vxworks-6.3/target/h/WPILib/Vision/RGBImage.h:
+
+C:/WindRiver/vxworks-6.3/target/h/WPILib/Vision/BinaryImage.h:
+
+C:/WindRiver/vxworks-6.3/target/h/Math.h:
 
 C:/WindRiver/workspace/AerialAssist/Commands/../OI.h:

@@ -41,6 +41,8 @@ void _GLOBAL__I__ZN6TurnToC2EN10DriveTrain13TurnDirectionEf();
 
 void _GLOBAL__I__ZN6UnlockC2Ev();
 
+void _GLOBAL__I__ZN11VisionCheckC2Ev();
+
 void _GLOBAL__I__ZN2OIC2Ev();
 
 void _GLOBAL__I__ZN5Robot10driveTrainE();
@@ -52,6 +54,8 @@ void _GLOBAL__I__ZN10DriveTrainC2Ev();
 void _GLOBAL__I__ZN7ShooterC2Ev();
 
 void _GLOBAL__I__ZN8Trunnion3MAXE();
+
+void _GLOBAL__I__ZN15VisionSubsystemC2Ev();
 
 void _GLOBAL__I__ZN16VisionSample2014C2Ev();
 
@@ -127,12 +131,14 @@ void (*_ctors[])() =
     _GLOBAL__I__ZN10StopMotorsC2Ev,
     _GLOBAL__I__ZN6TurnToC2EN10DriveTrain13TurnDirectionEf,
     _GLOBAL__I__ZN6UnlockC2Ev,
+    _GLOBAL__I__ZN11VisionCheckC2Ev,
     _GLOBAL__I__ZN2OIC2Ev,
     _GLOBAL__I__ZN5Robot10driveTrainE,
     _GLOBAL__I__ZN8RobotMap24driveTrainLeftDriveMotorE,
     _GLOBAL__I__ZN10DriveTrainC2Ev,
     _GLOBAL__I__ZN7ShooterC2Ev,
     _GLOBAL__I__ZN8Trunnion3MAXE,
+    _GLOBAL__I__ZN15VisionSubsystemC2Ev,
     _GLOBAL__I__ZN16VisionSample2014C2Ev,
     _GLOBAL__I__ZN12PrintCommandC2EPKc,
     _GLOBAL__I__ZN9Scheduler9_instanceE,
@@ -197,6 +203,8 @@ void _GLOBAL__D__ZN6TurnToC2EN10DriveTrain13TurnDirectionEf();
 
 void _GLOBAL__D__ZN6UnlockC2Ev();
 
+void _GLOBAL__D__ZN11VisionCheckC2Ev();
+
 void _GLOBAL__D__ZN2OIC2Ev();
 
 void _GLOBAL__D__ZN5Robot10driveTrainE();
@@ -208,6 +216,8 @@ void _GLOBAL__D__ZN10DriveTrainC2Ev();
 void _GLOBAL__D__ZN7ShooterC2Ev();
 
 void _GLOBAL__D__ZN8Trunnion3MAXE();
+
+void _GLOBAL__D__ZN15VisionSubsystemC2Ev();
 
 void _GLOBAL__D__ZN16VisionSample2014C2Ev();
 
@@ -273,12 +283,14 @@ void (*_dtors[])() =
     _GLOBAL__D__ZN10StopMotorsC2Ev,
     _GLOBAL__D__ZN6TurnToC2EN10DriveTrain13TurnDirectionEf,
     _GLOBAL__D__ZN6UnlockC2Ev,
+    _GLOBAL__D__ZN11VisionCheckC2Ev,
     _GLOBAL__D__ZN2OIC2Ev,
     _GLOBAL__D__ZN5Robot10driveTrainE,
     _GLOBAL__D__ZN8RobotMap24driveTrainLeftDriveMotorE,
     _GLOBAL__D__ZN10DriveTrainC2Ev,
     _GLOBAL__D__ZN7ShooterC2Ev,
     _GLOBAL__D__ZN8Trunnion3MAXE,
+    _GLOBAL__D__ZN15VisionSubsystemC2Ev,
     _GLOBAL__D__ZN16VisionSample2014C2Ev,
     _GLOBAL__D__ZN9Scheduler9_instanceE,
     _GLOBAL__D_wpi_error_s_ModuleIndexOutOfRange,

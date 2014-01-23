@@ -399,6 +399,12 @@ CommandBassedRobotTemplate_partialImage/Debug/Objects/AerialAssist/OI.o:  \
   C:/WindRiver/vxworks-6.3/target/h/WPILib/WPILib.h \
   C:/WindRiver/workspace/AerialAssist/Commands/../Subsystems/Shooter.h \
   C:/WindRiver/workspace/AerialAssist/Commands/../Subsystems/Trunnion.h \
+  C:/WindRiver/workspace/AerialAssist/Commands/../Subsystems/VisionSubsystem.h \
+  C:/WindRiver/workspace/AerialAssist/Commands/../Subsystems/../VisionSample2014/VisionSample2014.h \
+  C:/WindRiver/vxworks-6.3/target/h/WPILib/WPILib.h \
+  C:/WindRiver/vxworks-6.3/target/h/WPILib/Vision/RGBImage.h \
+  C:/WindRiver/vxworks-6.3/target/h/WPILib/Vision/BinaryImage.h \
+  C:/WindRiver/vxworks-6.3/target/h/Math.h \
   C:/WindRiver/workspace/AerialAssist/Commands/../OI.h \
   C:/WindRiver/workspace/AerialAssist/Commands/AngleUp.h \
   C:/WindRiver/workspace/AerialAssist/Commands/AutoMove.h \
@@ -418,7 +424,8 @@ CommandBassedRobotTemplate_partialImage/Debug/Objects/AerialAssist/OI.o:  \
   C:/WindRiver/workspace/AerialAssist/Commands/ShiftUp.h \
   C:/WindRiver/workspace/AerialAssist/Commands/StopMotors.h \
   C:/WindRiver/workspace/AerialAssist/Commands/TurnTo.h \
-  C:/WindRiver/workspace/AerialAssist/Commands/Unlock.h
+  C:/WindRiver/workspace/AerialAssist/Commands/Unlock.h \
+  C:/WindRiver/workspace/AerialAssist/Commands/VisionCheck.h
 
 C:/WindRiver/workspace/AerialAssist/OI.h:
 
@@ -1218,6 +1225,18 @@ C:/WindRiver/workspace/AerialAssist/Commands/../Subsystems/Shooter.h:
 
 C:/WindRiver/workspace/AerialAssist/Commands/../Subsystems/Trunnion.h:
 
+C:/WindRiver/workspace/AerialAssist/Commands/../Subsystems/VisionSubsystem.h:
+
+C:/WindRiver/workspace/AerialAssist/Commands/../Subsystems/../VisionSample2014/VisionSample2014.h:
+
+C:/WindRiver/vxworks-6.3/target/h/WPILib/WPILib.h:
+
+C:/WindRiver/vxworks-6.3/target/h/WPILib/Vision/RGBImage.h:
+
+C:/WindRiver/vxworks-6.3/target/h/WPILib/Vision/BinaryImage.h:
+
+C:/WindRiver/vxworks-6.3/target/h/Math.h:
+
 C:/WindRiver/workspace/AerialAssist/Commands/../OI.h:
 
 C:/WindRiver/workspace/AerialAssist/Commands/AngleUp.h:
@@ -1257,3 +1276,5 @@ C:/WindRiver/workspace/AerialAssist/Commands/StopMotors.h:
 C:/WindRiver/workspace/AerialAssist/Commands/TurnTo.h:
 
 C:/WindRiver/workspace/AerialAssist/Commands/Unlock.h:
+
+C:/WindRiver/workspace/AerialAssist/Commands/VisionCheck.h:
