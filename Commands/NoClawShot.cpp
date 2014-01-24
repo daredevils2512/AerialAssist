@@ -11,6 +11,9 @@
 
 
 #include "NoClawShot.h"
+#include "ClawOpen.h"
+#include "Release.h"
+#include "ClawClose.h"
 
 NoClawShot::NoClawShot() {
 	// Add Commands here:
@@ -29,4 +32,8 @@ NoClawShot::NoClawShot() {
 	// e.g. if Command1 requires chassis, and Command2 requires arm,
 	// a CommandGroup containing them would require both the chassis and the
 	// arm.
+	
+	AddSequential(new ClawOpen());
+	AddSequential(new Release());
+	AddSequential(new ClawClose());
 }

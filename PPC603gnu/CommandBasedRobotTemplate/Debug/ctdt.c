@@ -13,8 +13,6 @@ void _GLOBAL__I__ZN7AngleUpC2Ev();
 
 void _GLOBAL__I__ZN8AutoMoveC2Efi();
 
-void _GLOBAL__I__ZN17AutonomousCommandC2Ev();
-
 void _GLOBAL__I__ZN10CenterAutoC2Ev();
 
 void _GLOBAL__I__ZN9ClawCloseC2Ev();
@@ -28,6 +26,8 @@ void _GLOBAL__I__ZN9GoToAngleC2Ef();
 void _GLOBAL__I__ZN8LeftAutoC2Ev();
 
 void _GLOBAL__I__ZN4LockC2Ev();
+
+void _GLOBAL__I__ZN10NoClawShotC2Ev();
 
 void _GLOBAL__I__ZN8PullBackC2Ev();
 
@@ -129,7 +129,6 @@ void (*_ctors[])() =
     _GLOBAL__I__ZN9AngleDownC2Ev,
     _GLOBAL__I__ZN7AngleUpC2Ev,
     _GLOBAL__I__ZN8AutoMoveC2Efi,
-    _GLOBAL__I__ZN17AutonomousCommandC2Ev,
     _GLOBAL__I__ZN10CenterAutoC2Ev,
     _GLOBAL__I__ZN9ClawCloseC2Ev,
     _GLOBAL__I__ZN8ClawOpenC2Ev,
@@ -137,6 +136,7 @@ void (*_ctors[])() =
     _GLOBAL__I__ZN9GoToAngleC2Ef,
     _GLOBAL__I__ZN8LeftAutoC2Ev,
     _GLOBAL__I__ZN4LockC2Ev,
+    _GLOBAL__I__ZN10NoClawShotC2Ev,
     _GLOBAL__I__ZN8PullBackC2Ev,
     _GLOBAL__I__ZN7ReleaseC2Ev,
     _GLOBAL__I__ZN9RightAutoC2Ev,
@@ -193,8 +193,6 @@ void _GLOBAL__D__ZN7AngleUpC2Ev();
 
 void _GLOBAL__D__ZN8AutoMoveC2Efi();
 
-void _GLOBAL__D__ZN17AutonomousCommandC2Ev();
-
 void _GLOBAL__D__ZN10CenterAutoC2Ev();
 
 void _GLOBAL__D__ZN9ClawCloseC2Ev();
@@ -208,6 +206,8 @@ void _GLOBAL__D__ZN9GoToAngleC2Ef();
 void _GLOBAL__D__ZN8LeftAutoC2Ev();
 
 void _GLOBAL__D__ZN4LockC2Ev();
+
+void _GLOBAL__D__ZN10NoClawShotC2Ev();
 
 void _GLOBAL__D__ZN8PullBackC2Ev();
 
@@ -299,7 +299,6 @@ void (*_dtors[])() =
     _GLOBAL__D__ZN9AngleDownC2Ev,
     _GLOBAL__D__ZN7AngleUpC2Ev,
     _GLOBAL__D__ZN8AutoMoveC2Efi,
-    _GLOBAL__D__ZN17AutonomousCommandC2Ev,
     _GLOBAL__D__ZN10CenterAutoC2Ev,
     _GLOBAL__D__ZN9ClawCloseC2Ev,
     _GLOBAL__D__ZN8ClawOpenC2Ev,
@@ -307,6 +306,7 @@ void (*_dtors[])() =
     _GLOBAL__D__ZN9GoToAngleC2Ef,
     _GLOBAL__D__ZN8LeftAutoC2Ev,
     _GLOBAL__D__ZN4LockC2Ev,
+    _GLOBAL__D__ZN10NoClawShotC2Ev,
     _GLOBAL__D__ZN8PullBackC2Ev,
     _GLOBAL__D__ZN7ReleaseC2Ev,
     _GLOBAL__D__ZN9RightAutoC2Ev,
