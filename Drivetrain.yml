@@ -549,7 +549,7 @@ Children:
           name: Command
           type: Command
           validators: *id020
-          value: Release
+          value: ClawShot
         Button: !!robotbuilder.data.properties.ChoicesProperty
           choices: *id021
           default: '1'
@@ -563,7 +563,7 @@ Children:
           default: whileHeld
           name: When to Run
           validators: null
-          value: whileHeld
+          value: whenPressed
     - Name: ScoopWheelForewardButton
       Base: Joystick Button
       Children: []
@@ -795,6 +795,12 @@ Children:
     Properties:
       Requires: !!robotbuilder.data.properties.TypeSelectionProperty {default: None,
         name: Requires, type: Subsystem, validators: null, value: Claw}
+      Button on SmartDashboard: !!robotbuilder.data.properties.BooleanProperty {default: true,
+        name: Button on SmartDashboard, validators: null, value: true}
+  - Name: ClawShot
+    Base: Command Group
+    Children: []
+    Properties:
       Button on SmartDashboard: !!robotbuilder.data.properties.BooleanProperty {default: true,
         name: Button on SmartDashboard, validators: null, value: true}
   Properties: {}
