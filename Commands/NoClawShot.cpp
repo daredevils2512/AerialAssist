@@ -15,6 +15,7 @@
 #include "Release.h"
 #include "ClawClose.h"
 #include "PullBack.h"
+#include "PauseAfterShooting.h"
 
 NoClawShot::NoClawShot() {
 	// Add Commands here:
@@ -36,6 +37,7 @@ NoClawShot::NoClawShot() {
 	
 	AddSequential(new ClawOpen());
 	AddSequential(new Release());
-	AddSequential(new ClawClose());
+	AddParallel(new ClawClose());
+	AddSequential(new PauseAfterShooting());
 	AddSequential(new PullBack());
 }

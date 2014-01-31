@@ -25,14 +25,10 @@ bool VisionSubsystem::Calculate() {
 	return vision->ProcessImage();
 }
 void VisionSubsystem::SetToTeleop() {
-	camera->WriteExposureControl(AxisCamera::kExposure_Automatic);
-	camera->WriteWhiteBalance(AxisCamera::kWhiteBalance_Automatic);
-	camera->WriteBrightness(1);
+	camera->WriteBrightness(100);
 }
 void VisionSubsystem::SetToAutonomous() {
-	camera->WriteExposureControl(AxisCamera::kExposure_Automatic);
-	camera->WriteWhiteBalance(AxisCamera::kWhiteBalance_Automatic);
-	camera->WriteBrightness(1);
+	camera->WriteBrightness(0);
 }
 // Put methods for controlling this subsystem
 // here. Call these from Commands.
