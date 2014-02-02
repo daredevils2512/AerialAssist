@@ -21,7 +21,7 @@ void Drive::Initialize() {
 }
 // Called repeatedly when this Command is scheduled to run
 void Drive::Execute() {
-	Robot::driveTrain->robotDrive->ArcadeDrive(Robot::oi->getJoystick1());
+	Robot::driveTrain->robotDrive->ArcadeDrive(Robot::oi->GetXAxis(), Robot::oi->GetYAxis());
 }
 // Make this return true when this Command no longer needs to run execute()
 bool Drive::IsFinished() {
